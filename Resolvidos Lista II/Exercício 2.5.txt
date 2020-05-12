@@ -1,0 +1,22 @@
+#Faça um Programa que leia três números e mostre o maior deles.
+a = int(input("Insira o primeiro número: "))
+b = int(input("Insira o segundo número: "))
+c= int(input("Insira o terceiro número: "))
+
+if a > b and a > c:
+    print ("O maior número é o A que é" , a)
+    print ("O menor número é o ")
+elif b > a and b > c:
+    print ("O maior número é o B que é" , b)
+elif c > a and c >b:
+    print ("O maior número é o C que é" , c)
+elif a == b == c:
+    print ("Os número são iguais " , a)
+    
+if a < b and a < c:
+    print ("O menor número é o A que é" , a)
+    
+elif b < a and b < c:
+    print ("O menor número é o B que é" , b)
+elif c < a and c <b:
+    print ("O menor número é o C que é" , c)
